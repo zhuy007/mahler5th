@@ -106,3 +106,4 @@ videoModal.addEventListener("click", () => {
     videoPlayer.pause(); 
     videoPlayer.currentTime = 0; 
 });
+
