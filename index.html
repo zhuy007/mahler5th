@@ -1,0 +1,105 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="main.css">
+	<title>MAHLER 5: ADAGIETTO</title>
+</head>
+<body>
+
+
+<div id="canvasContainer">
+    <canvas id="trailCanvas"></canvas>
+
+    <button id="listen-button"><span>We search for meaning where there appears to be none</span> <br>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <span>and suffer from both our search and its failure to achieve fulfillment.</span></button>
+    
+<!--     <div id="image-modal">
+        <img src="web poster 5.png" >
+    </div> -->
+
+
+<div id="video-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; justify-content: center; align-items: center; ">
+    <video id="video-player" style="width: 100%; height: 100%; object-fit: cover;">
+        <source src="video7.2.mp4" type="video/mp4" />
+    </video>
+</div>
+
+	<div class="title">
+		[In a Nietzschean life without God, nature has lost its foundation.]
+	</div>
+
+	<div class="info2">
+		&nbsp; &nbsp; A resolution of this human paradox <br> for nature can only be achieved on a worldly plane through direct and <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;unflinching confrontation with the negative side of life.
+	</div>
+
+	<div class="info3">
+	 &nbsp; &nbsp; &nbsp; The Fifth Symphony, <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; as a case in point, <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; presents a life crisis in the abstract, <br>&nbsp; explores its manifestations, and then overcomes its tragic nature through a courageous struggle with its most destructive aspects.
+	</div>
+
+	<div class="info4">
+ 	&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ 	Mahler avoids explicit extra-musical subjects, 
+ 	<br>
+ 	having openly disavowed programmatic content, he now concentrates on purely abstract music-making, 
+ 	<br>
+ 	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ 	he no longer expresses nature as the quintessence of worldly existence, 
+ 	<br>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	or otherworldly spiritualism or pantheism, as a path to ultimate truth.
+	</div>
+
+	<div class="info5">
+	A central philosophical concept seems pervasive,
+	<br>
+ 	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ 	a search for redemption from suffering. 
+ 	<br>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ 	Within this conceptual framework, 
+	<br>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mahler infuses the music with implicit psychological and philosophical overtones, 
+ 	<br>
+    &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    in an exploration of the human subconscious.
+	</div>
+
+	<div class="info6">
+	Mahler moves from the sublime to the ridiculous, 
+	<br>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	the mournful to the outraged, 
+	<br>
+ 	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  	the calm to the storm, 
+  	<br>
+   	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	sometimes without the slightest warning. 
+	</div>
+
+	<div class="info7">
+	&nbsp; &nbsp; &nbsp; &nbsp; 
+	Form follows function here, 
+	<br>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	always in the service of the music’s dramatic nature. 
+	<br><br>
+	Diversions from classical form, enable Mahler to express a myriad of emotions that appear in disarray, 
+	<br>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	their chaotic manner of presentation, mirroring the confusions and disaffection of modern life.
+	</div>
+</div>
+
+</div>
+<audio id="backgroundAudio" src="adagietto trimmed.m4a" autoplay loop></audio>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+        <canvas id="trailCanvas"></canvas>
+</body>
+
+</html> 
+
