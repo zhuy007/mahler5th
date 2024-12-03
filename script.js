@@ -97,12 +97,12 @@ const videoModal = document.getElementById("video-modal");
 const videoPlayer = document.getElementById("video-player");
 
 listenButton.addEventListener("click", () => {
-    videoModal.style.display = "flex"; // Show the modal
-    videoPlayer.play(); // Start playing the video
+    videoModal.style.display = "flex"; 
+    videoPlayer.play(); 
 });
 
 videoModal.addEventListener("click", () => {
-    videoModal.style.display = "none"; // Hide the modal
-    videoPlayer.pause(); // Pause the video
-    videoPlayer.currentTime = 0; // Reset the video to the beginning
+    videoModal.style.display = "none";
+    videoPlayer.pause(); 
+    videoPlayer.currentTime = 0; 
 });
