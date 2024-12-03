@@ -23,13 +23,13 @@ body::-webkit-scrollbar {
 
 
 body, html {
+    cursor: none !important;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black; 
     width: 280vw;
     height: 300vh;
-    cursor: none !important;
 }
 
 
